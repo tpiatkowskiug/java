@@ -1,0 +1,381 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workbench progressCount="17" version="2.0">
+<workbenchAdvisor/>
+<window height="742" maximized="true" width="1012" x="65" y="24">
+<fastViewData fastViewLocation="1024"/>
+<perspectiveBar>
+<itemSize x="160"/>
+</perspectiveBar>
+<coolbarLayout>
+<coolItem id="group.file" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.ui.workbench.file" itemType="typeToolBarContribution" x="144" y="30"/>
+<coolItem id="additions" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.debug.ui.launch.toolbar" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="org.eclipse.debug.ui.launchActionSet" itemType="typeToolBarContribution" x="156" y="30"/>
+<coolItem id="org.eclipse.debug.ui.main.toolbar" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="org.eclipse.search.searchActionSet" itemType="typeToolBarContribution" x="88" y="30"/>
+<coolItem id="org.eclipse.ui.edit.text.actionSet.presentation" itemType="typeToolBarContribution" x="124" y="30"/>
+<coolItem id="group.nav" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.ui.workbench.navigate" itemType="typeToolBarContribution" x="232" y="30"/>
+<coolItem id="group.editor" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.ui.DefaultTextEditor" itemType="typePlaceholder" x="-1" y="-1"/>
+<coolItem id="org.eclipse.jdt.ui.CompilationUnitEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="group.help" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.ui.workbench.help" itemType="typeToolBarContribution" x="-1" y="-1"/>
+</coolbarLayout>
+<page aggregateWorkingSetId="Aggregate for window 1508148526468" focus="true" label="Workspace - Resource">
+<editors>
+<editorArea activeWorkbook="DefaultEditorWorkbook">
+<info part="DefaultEditorWorkbook">
+<folder appearance="1" expanded="2">
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+<part id="1"/>
+</presentation>
+</folder>
+</info>
+</editorArea>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Próba.java" partName="Próba.java" path="/home/tomek/workspace/Hello/src/Próba.java" title="Próba.java" tooltip="Hello/src/Próba.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Hello/src/Próba.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1113" selectionTopPixel="229"/>
+</editor>
+<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Szyfrowanie.java" partName="Szyfrowanie.java" path="/home/tomek/workspace/Hello/src/Szyfrowanie.java" title="Szyfrowanie.java" tooltip="Hello/src/Szyfrowanie.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Hello/src/Szyfrowanie.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="2785" selectionTopPixel="1070"/>
+</editor>
+</editors>
+<views>
+<view id="org.eclipse.ui.console.ConsoleView" partName="Console">
+<viewState/>
+</view>
+<view id="org.eclipse.ui.views.ContentOutline" partName="Outline">
+<viewState/>
+</view>
+<view id="org.eclipse.ui.views.TaskList" partName="Tasks">
+<viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.completionField" categoryGroup="none" markerContentGenerator="org.eclipse.ui.ide.tasksGenerator" partName="Tasks">
+<columnWidths org.eclipse.ui.ide.completionField="40" org.eclipse.ui.ide.descriptionField="350" org.eclipse.ui.ide.locationField="105" org.eclipse.ui.ide.markerType="247" org.eclipse.ui.ide.pathField="140" org.eclipse.ui.ide.priorityField="35" org.eclipse.ui.ide.resourceField="105"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.completionField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.priorityField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.descriptionField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.resourceField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.pathField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.locationField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.markerType"/>
+</viewState>
+</view>
+<view id="org.eclipse.ui.navigator.ProjectExplorer" partName="Project Explorer">
+<viewState CommonNavigator.LINKING_ENABLED="0" org.eclipse.ui.navigator.resources.workingSets.showTopLevelWorkingSets="0"/>
+</view>
+</views>
+<perspectives activePart="org.eclipse.ui.console.ConsoleView" activePerspective="org.eclipse.ui.resourcePerspective">
+<perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
+<descriptor class="org.eclipse.ui.internal.ide.application.ResourcePerspective" id="org.eclipse.ui.resourcePerspective" label="Resource"/>
+<alwaysOnActionSet id="org.eclipse.ui.cheatsheets.actionSet"/>
+<alwaysOnActionSet id="org.eclipse.search.searchActionSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.annotationNavigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.navigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.convertLineDelimitersTo"/>
+<alwaysOnActionSet id="org.eclipse.ui.externaltools.ExternalToolsSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.keyBindings"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.openFiles"/>
+<alwaysOnActionSet id="org.eclipse.ui.NavigateActionSet"/>
+<show_view_action id="org.eclipse.ui.navigator.ProjectExplorer"/>
+<show_view_action id="org.eclipse.ui.views.BookmarkView"/>
+<show_view_action id="org.eclipse.ui.views.ContentOutline"/>
+<show_view_action id="org.eclipse.ui.views.PropertySheet"/>
+<show_view_action id="org.eclipse.ui.views.ProblemView"/>
+<show_view_action id="org.eclipse.ui.views.ProgressView"/>
+<show_view_action id="org.eclipse.ui.views.TaskList"/>
+<show_view_action id="org.eclipse.ant.ui.views.AntView"/>
+<show_view_action id="org.eclipse.pde.runtime.LogView"/>
+<new_wizard_action id="org.eclipse.ui.wizards.new.folder"/>
+<new_wizard_action id="org.eclipse.ui.wizards.new.file"/>
+<new_wizard_action id="org.eclipse.ui.editors.wizards.UntitledTextFileWizard"/>
+<perspective_action id="org.eclipse.jdt.ui.JavaPerspective"/>
+<perspective_action id="org.eclipse.jdt.ui.JavaBrowsingPerspective"/>
+<perspective_action id="org.eclipse.team.cvs.ui.cvsPerspective"/>
+<perspective_action id="org.eclipse.team.ui.TeamSynchronizingPerspective"/>
+<hide_toolbar_item_id id="org.eclipse.ui.edit.text.toggleShowSelectedElementOnly"/>
+<hide_toolbar_item_id id="org.eclipse.debug.ui.commands.RunToLine"/>
+<hide_toolbar_item_id id="org.eclipse.jdt.ui.actions.OpenProjectWizard"/>
+<view id="org.eclipse.ui.navigator.ProjectExplorer"/>
+<view id="org.eclipse.ui.views.ContentOutline"/>
+<view id="org.eclipse.ui.views.TaskList"/>
+<view id="org.eclipse.ui.console.ConsoleView"/>
+<fastViewBars/>
+<layout>
+<mainWindow>
+<info folder="true" part="topLeft">
+<folder activePageID="org.eclipse.ui.navigator.ProjectExplorer" appearance="2" expanded="2">
+<page content="org.eclipse.ui.navigator.ProjectExplorer" label="Project Explorer"/>
+<page content="org.eclipse.ui.views.BookmarkView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.views.ResourceNavigator" label="LabelNotFound"/>
+<page content="org.eclipse.team.ccvs.ui.RepositoriesView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+</presentation>
+</folder>
+</info>
+<info folder="true" part="stickyFolderRight" ratio="0.7495049" ratioLeft="757" ratioRight="253" relationship="2" relative="topLeft">
+<folder appearance="2" expanded="2">
+<page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.internal.introview" label="LabelNotFound"/>
+<page content="org.eclipse.ui.cheatsheets.views.CheatSheetView" label="LabelNotFound"/>
+</folder>
+</info>
+<info part="org.eclipse.ui.editorss" ratio="0.25940594" ratioLeft="262" ratioRight="748" relationship="2" relative="topLeft"/>
+<info folder="true" part="bottomRight" ratio="0.659375" ratioLeft="422" ratioRight="218" relationship="4" relative="org.eclipse.ui.editorss">
+<folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">
+<page content="org.eclipse.ui.views.TaskList" label="Tasks"/>
+<page content="org.eclipse.ui.console.ConsoleView" label="Console"/>
+<page content="org.eclipse.team.ui.GenericHistoryView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+<part id="1"/>
+</presentation>
+</folder>
+</info>
+<info folder="true" part="bottomLeft" ratio="0.5" ratioLeft="320" ratioRight="320" relationship="4" relative="topLeft">
+<folder activePageID="org.eclipse.ui.views.ContentOutline" appearance="2" expanded="2">
+<page content="org.eclipse.ui.views.ContentOutline" label="Outline"/>
+<page content="org.eclipse.ant.ui.views.AntView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+</presentation>
+</folder>
+</info>
+</mainWindow>
+</layout>
+</perspective>
+</perspectives>
+<workingSets/>
+<navigationHistory>
+<editors>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Hello/src/Próba.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Hello/src/Szyfrowanie.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Hello/src/Strumieniedwa.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Hello/src/TworzeniePliku.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Hello/src/TwrorzenieFolderu.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Hello/src/Próba.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Hello/src/Szyfrowanie.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" path="/Hello/plik.txt"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Hello/src/TworzeniePliku.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Hello/src/imie.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Hello/src/OdczytLiczb.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Hello/src/Imiona.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Hello/src/HelloWorld.java"/>
+</editors>
+<item historyLabel="Szyfrowanie.java" index="1">
+<position info="not_deleted" x="3120" y="0"/>
+</item>
+<item historyLabel="Szyfrowanie.java" index="1">
+<position info="not_deleted" x="1872" y="1"/>
+</item>
+<item historyLabel="Szyfrowanie.java" index="1">
+<position info="not_deleted" x="823" y="0"/>
+</item>
+<item historyLabel="Szyfrowanie.java" index="1">
+<position info="not_deleted" x="2238" y="0"/>
+</item>
+<item historyLabel="Próba.java" index="0">
+<position info="not_deleted" x="1242" y="0"/>
+</item>
+<item historyLabel="Strumieniedwa.java" index="2">
+<position info="not_deleted" x="100" y="28"/>
+</item>
+<item historyLabel="TworzeniePliku.java" index="3">
+<position info="not_deleted" x="0" y="48"/>
+</item>
+<item historyLabel="Strumieniedwa.java" index="2">
+<position info="not_deleted" x="100" y="28"/>
+</item>
+<item historyLabel="Próba.java" index="0">
+<position info="not_deleted" x="717" y="477"/>
+</item>
+<item historyLabel="Szyfrowanie.java" index="1">
+<position info="not_deleted" x="1485" y="0"/>
+</item>
+<item historyLabel="Próba.java" index="0">
+<position info="not_deleted" x="717" y="477"/>
+</item>
+<item historyLabel="Szyfrowanie.java" index="1">
+<position info="not_deleted" x="1485" y="0"/>
+</item>
+<item historyLabel="Szyfrowanie.java" index="1">
+<position info="not_deleted" x="1652" y="6"/>
+</item>
+<item historyLabel="Szyfrowanie.java" index="1">
+<position info="not_deleted" x="1648" y="3"/>
+</item>
+<item historyLabel="Szyfrowanie.java" index="1">
+<position info="not_deleted" x="1400" y="0"/>
+</item>
+<item historyLabel="Szyfrowanie.java" index="1">
+<position info="not_deleted" x="1407" y="0"/>
+</item>
+<item historyLabel="Szyfrowanie.java" index="1">
+<position info="not_deleted" x="1362" y="0"/>
+</item>
+<item historyLabel="Szyfrowanie.java" index="1">
+<position info="not_deleted" x="3110" y="0"/>
+</item>
+<item historyLabel="Próba.java" index="0">
+<position info="not_deleted" x="717" y="477"/>
+</item>
+<item historyLabel="TwrorzenieFolderu.java" index="4">
+<position info="not_deleted" x="370" y="0"/>
+</item>
+<item historyLabel="Próba.java" index="5">
+<position info="not_deleted" x="717" y="477"/>
+</item>
+<item historyLabel="Szyfrowanie.java" index="6">
+<position/>
+</item>
+<item historyLabel="Szyfrowanie.java" index="6">
+<position info="not_deleted" x="3054" y="0"/>
+</item>
+<item historyLabel="Szyfrowanie.java" index="6">
+<position info="not_deleted" x="3527" y="5"/>
+</item>
+<item historyLabel="Próba.java" index="5">
+<position info="not_deleted" x="1113" y="0"/>
+</item>
+<item historyLabel="TwrorzenieFolderu.java" index="4">
+<position info="not_deleted" x="370" y="0"/>
+</item>
+<item historyLabel="Szyfrowanie.java" index="6">
+<position info="not_deleted" x="3527" y="5"/>
+</item>
+<item historyLabel="Szyfrowanie.java" index="6">
+<position info="not_deleted" x="2300" y="0"/>
+</item>
+<item historyLabel="Szyfrowanie.java" index="6">
+<position info="not_deleted" x="2314" y="4"/>
+</item>
+<item historyLabel="Szyfrowanie.java" index="6">
+<position info="not_deleted" x="1996" y="5"/>
+</item>
+<item historyLabel="Szyfrowanie.java" index="6">
+<position info="not_deleted" x="1987" y="0"/>
+</item>
+<item historyLabel="Szyfrowanie.java" index="6">
+<position info="not_deleted" x="1996" y="5"/>
+</item>
+<item historyLabel="Szyfrowanie.java" index="6">
+<position info="not_deleted" x="2327" y="0"/>
+</item>
+<item historyLabel="Szyfrowanie.java" index="6">
+<position info="not_deleted" x="2373" y="0"/>
+</item>
+<item historyLabel="Szyfrowanie.java" index="6">
+<position info="not_deleted" x="2327" y="0"/>
+</item>
+<item historyLabel="Szyfrowanie.java" index="6">
+<position/>
+</item>
+<item historyLabel="Szyfrowanie.java" index="6">
+<position info="not_deleted" x="2967" y="0"/>
+</item>
+<item historyLabel="Szyfrowanie.java" index="6">
+<position/>
+</item>
+<item historyLabel="plik.txt" index="7">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="TworzeniePliku.java" index="8">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="imie.java" index="9">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="OdczytLiczb.java" index="10">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="Imiona.java" index="11">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="HelloWorld.java" index="12">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="imie.java" index="9">
+<position info="not_deleted" x="209" y="143"/>
+</item>
+<item historyLabel="plik.txt" index="7">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="imie.java" index="9">
+<position info="not_deleted" x="209" y="143"/>
+</item>
+<item historyLabel="HelloWorld.java" index="12">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="Imiona.java" index="11">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item active="true" historyLabel="Szyfrowanie.java" index="6">
+<position info="not_deleted" x="2759" y="5"/>
+</item>
+</navigationHistory>
+<input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
+</page>
+<workbenchWindowAdvisor/>
+<actionBarAdvisor/>
+<trimLayout>
+<trimArea IMemento.internal.id="128">
+<trimItem IMemento.internal.id="org.eclipse.ui.internal.WorkbenchWindow.topBar"/>
+</trimArea>
+<trimArea IMemento.internal.id="1024">
+<trimItem IMemento.internal.id="org.eclise.ui.internal.FastViewBar"/>
+<trimItem IMemento.internal.id="org.eclipse.jface.action.StatusLineManager"/>
+<trimItem IMemento.internal.id="org.eclipse.ui.internal.progress.ProgressRegion"/>
+</trimArea>
+</trimLayout>
+</window>
+<mruList>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="HelloWorld.java" tooltip="Hello/src/HelloWorld.java">
+<persistable path="/Hello/src/HelloWorld.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Imiona.java" tooltip="Hello/src/Imiona.java">
+<persistable path="/Hello/src/Imiona.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="OdczytLiczb.java" tooltip="Hello/src/OdczytLiczb.java">
+<persistable path="/Hello/src/OdczytLiczb.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="imie.java" tooltip="Hello/src/imie.java">
+<persistable path="/Hello/src/imie.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="TworzeniePliku.java" tooltip="Hello/src/TworzeniePliku.java">
+<persistable path="/Hello/src/TworzeniePliku.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" name="plik.txt" tooltip="Hello/plik.txt">
+<persistable path="/Hello/plik.txt"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Strumieniedwa.java" tooltip="Hello/src/Strumieniedwa.java">
+<persistable path="/Hello/src/Strumieniedwa.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Szyfrowanie.java" tooltip="Hello/src/Szyfrowanie.java">
+<persistable path="/Hello/src/Szyfrowanie.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Próba.java" tooltip="Hello/src/Próba.java">
+<persistable path="/Hello/src/Próba.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="TwrorzenieFolderu.java" tooltip="Hello/src/TwrorzenieFolderu.java">
+<persistable path="/Hello/src/TwrorzenieFolderu.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="WczytywanieZKlawiatury.java" tooltip="Hello/src/WczytywanieZKlawiatury.java">
+<persistable path="/Hello/src/WczytywanieZKlawiatury.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="moje.java" tooltip="Hello/src/moje.java">
+<persistable path="/Hello/src/moje.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Witaj.java" tooltip="Hello/src/Witaj.java">
+<persistable path="/Hello/src/Witaj.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Funkcje.java" tooltip="Hello/src/Funkcje.java">
+<persistable path="/Hello/src/Funkcje.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Kalkulator.java" tooltip="Hello/src/Kalkulator.java">
+<persistable path="/Hello/src/Kalkulator.java"/>
+</file>
+</mruList>
+</workbench>

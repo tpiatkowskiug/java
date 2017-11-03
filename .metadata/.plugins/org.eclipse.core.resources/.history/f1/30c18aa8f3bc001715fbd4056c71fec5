@@ -1,0 +1,36 @@
+import java.io.FileNotFoundException;
+import java.io.IOException;
+import java.io.RandomAccessFile;
+
+public class Próba {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		RandomAccessFile strumien = null;
+		int iloscszczytanychbajtow = 0;
+		try{
+			strumien = new RandomAccessFile("ala.txt", "rw");
+		}catch(FileNotFoundException e){
+			System.out.println("błąd Wejścia");
+		}
+		try{
+			strumien.writeUTF("Ala nie ma kota");
+			strumien.writeDouble(50/3);
+			
+			strumien = new RandomAccessFile("ala.txt", "rw");
+			if(strumien.read() != -1);
+			iloscszczytanychbajtow++;
+		}catch(IOException e){
+			System.out.println("błąd bloku");
+		}
+		try{
+			strumien.close();
+		}catch(IOException e){
+			System.out.println("Błąd zamykania strumeinia");
+		}
+		System.out.println("ilość bajtów"+iloscszczytanychbajtow);
+	}
+
+}

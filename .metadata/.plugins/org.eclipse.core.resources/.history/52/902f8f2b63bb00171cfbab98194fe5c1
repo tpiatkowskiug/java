@@ -1,0 +1,36 @@
+import java.io.DataOutputStream;
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
+import java.io.IOException;
+public class moje {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+	     DataOutputStream strumień = null;
+	     
+	        try {
+	            strumień = new DataOutputStream(new FileOutputStream("plik.txt"));
+	        } catch (FileNotFoundException e) {
+	            System.out.println("Nie znaleziono pliku");
+	        }
+	 
+	        try {
+	            /*
+	             * Dowolne metody
+	             */
+	        } catch (IOException e) {
+	            // Obsłużenie wyjątku
+	        }
+	 
+	        try {
+	            if (strumień != null)
+	                strumień.close();
+	        } catch (IOException e) {
+	            System.out.println("Błąd zamykania strumienia");
+	        }
+
+	}
+
+}

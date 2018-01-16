@@ -1,0 +1,17 @@
+import java.util.Scanner;
+
+
+public class tablica {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner scanner = new Scanner(System.in);
+		String imie = scanner.nextLine();
+		System.out.println(imie);
+		System.out.println("Moje imie" + imie);
+	}
+
+}

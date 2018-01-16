@@ -1,0 +1,14 @@
+
+public class HelloWorld {
+
+public void metoda1(){
+	System.out.println("ta metoda nie zwaraca nic");
+}
+public int trzy(){
+	return 3;
+}
+public int suma(int a, int b){
+	return a+b;
+}
+}
+

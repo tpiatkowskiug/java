@@ -1,0 +1,19 @@
+package okiennko;
+
+import javax.swing.JButton;
+import javax.swing.JFrame;
+
+public class Mojeokienko extends JFrame {
+	
+	public Mojeokienko(){
+		setSize(300,300	);
+		setTitle("moje piersze okienko");
+		JButton button = new JButton("Podaj dane");
+		add(button);
+	}
+	public static void main(String[] args){
+		Mojeokienko okno = new Mojeokienko();
+		okno.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		okno.setVisible(true);
+	}
+}

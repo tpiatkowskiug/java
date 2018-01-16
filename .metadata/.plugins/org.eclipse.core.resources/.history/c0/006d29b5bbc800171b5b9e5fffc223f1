@@ -1,0 +1,9 @@
+
+public class wyswietl {
+	static void zwieksz (Test pkt){
+		pkt.x++;
+		pkt.y++;
+		System.out.println(pkt.x + pkt.y);
+	}
+
+}

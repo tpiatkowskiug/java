@@ -1,4 +1,6 @@
+import java.io.DataInputStream;
 import java.io.DataOutputStream;
+import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.IOException;
@@ -7,19 +9,43 @@ import java.util.Scanner;
 import java.io.PrintWriter;
  
 public class Strumienie {
+//	 public static void metoda1(){
+//	        System.out.println("Ta metoda nic nie zwraca");
+//	    }
 
-	public static void main(String[] args) throws FileNotFoundException {
-		Scanner podajimie = new Scanner(System.in);
-		System.out.println("Podaj Swoje imie w celu zapisania do pliku imie.txt");
-		String imie = podajimie.nextLine();
-	
-		
-		PrintWriter zapis = new PrintWriter("imie.txt");
-		zapis.print(imie);
-		zapis.close();
-		
-		Scanner wyswietl = new Scanner(new File("imie.txt"));
-		System.out.println("Wynik zapisania w pliku imie.txt to "+wyswietl.nextLine());
+	public static void main(String[] args){
+	//	Strumienie.metoda1();
+		DataOutputStream wejście = null;
+		DataInputStream wyjście = null;
+		int ilośćszczytanychbajtów = 0;
+		try{
+			wejście = new DataOutputStream(new FileOutputStream("imie.txt"));
+		}catch(FileNotFoundException e){
+			System.out.println("nie znaleziono pliku");
+		}
+		try{
+			System.out.println("Podaj swoje imie i rok urodzenia");
+			Scanner sc = new Scanner(System.in);
+			wejście.writeUTF(sc.nextLine());
+			wejście.writeInt(sc.nextInt());
+			sc.close();
+		}catch(IOException e){
+			System.out.println("Błąd zapisu");}
+
+		try{
+			wyjście = new DataInputStream(new FileInputStream("imie.txt"));
+			while(wyjście.read() != -1)
+				ilośćszczytanychbajtów++;
+		}catch(IOException e){
+			System.out.println("Błąd zczytania bajtów");
+		}
+		try{
+			wejście.close();
+			wyjście.close();
+		}catch(IOException e){
+			System.out.println("Błąd zamykania Strumienia");
+		}
+		System.out.println("Ilość bajtów wynosi: " + ilośćszczytanychbajtów);
 		
 	}
 	

@@ -1,0 +1,38 @@
+import java.util.Scanner;
+
+public class SzyfrCezara {
+	public static void main(String[] args) {
+		String wynik =SzyfrCezara.input();
+		System.out.println(wynik);
+		String aa = SzyfrCezara.decrypt(wynik);
+		System.out.println(aa);
+		
+		
+		
+		for(int i=32; i<127; i++){
+			System.out.print((char)i);
+		}
+	}
+	public static String input(){
+		Scanner sc = new Scanner(System.in);
+		String input = sc.nextLine();
+		
+		return input;
+		
+	}
+	public static String decrypt(String message){
+		StringBuilder sb = new StringBuilder(message);
+		int distance = 5;
+		for(int i=0; i<sb.length(); i++){
+			int c = (int)sb.charAt(i);
+			if(c-distance<32){
+				c=123-(distance - (c-32));
+			}else{
+				c-= distance;
+			}
+			sb.setCharAt(i, (char)c);
+		}
+		return sb.toString();
+	}
+
+}

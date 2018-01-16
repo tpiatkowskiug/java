@@ -1,0 +1,7 @@
+class Test1 {
+public static void main(String[] args) {
+A a = new A(); a.f(); a.g();
+B b = new B(); b.f(); b.g(); b.h();
+C c = new C(); c.f(); c.g(); c.h();
+}
+}

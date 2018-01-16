@@ -9,7 +9,12 @@ public class TwrorzenieFolderu {
     	if(!folder.exists()){
     		folder.mkdirs();
     		//Files.createDirectory(Paths.get("nowyFolder"));
+//    	File folder2 = new File("folder2");
+//    	if(!folder2.exists()){
+//    		folder2.mkdirs();
+//    	}
     	}
+    	
     }
 }
 

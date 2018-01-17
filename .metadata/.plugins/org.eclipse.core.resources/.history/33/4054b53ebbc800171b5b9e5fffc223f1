@@ -1,6 +1,0 @@
-
-public class Test {
-int x;
-int y; 
-System.out.println("x" + "y");
-}

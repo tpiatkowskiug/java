@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<workbench progressCount="20" version="2.0">
+<workbench progressCount="18" version="2.0">
 <workbenchAdvisor/>
-<window height="594" maximized="true" width="1277" x="30" y="24">
+<window height="585" width="1291" x="81" y="151">
 <fastViewData fastViewLocation="1024">
 <orientation position="512" view="org.eclipse.jdt.ui.PackageExplorer"/>
 <orientation position="512" view="org.eclipse.ui.console.ConsoleView"/>
@@ -46,7 +46,7 @@
 </editorArea>
 <editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="CreateJTabbedPaneExample.java" partName="CreateJTabbedPaneExample.java" path="/home/tomek/workspace/MVC/src/view/CreateJTabbedPaneExample.java" title="CreateJTabbedPaneExample.java" tooltip="MVC/src/view/CreateJTabbedPaneExample.java" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/MVC/src/view/CreateJTabbedPaneExample.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="883" selectionTopPixel="0"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="534" selectionTopPixel="0"/>
 </editor>
 </editors>
 <views>
@@ -87,9 +87,6 @@
 </view>
 <view id="org.eclipse.ui.views.ProblemView" partName="Problems">
 <viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.severityAndDescriptionField" categoryGroup="org.eclipse.ui.ide.severity" markerContentGenerator="org.eclipse.ui.ide.problemsGenerator" partName="Problems">
-<expanded>
-<category IMemento.internal.id="Warnings (72 items)"/>
-</expanded>
 <columnWidths org.eclipse.ui.ide.locationField="105" org.eclipse.ui.ide.markerType="386" org.eclipse.ui.ide.pathField="140" org.eclipse.ui.ide.resourceField="105" org.eclipse.ui.ide.severityAndDescriptionField="350"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.severityAndDescriptionField"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.resourceField"/>

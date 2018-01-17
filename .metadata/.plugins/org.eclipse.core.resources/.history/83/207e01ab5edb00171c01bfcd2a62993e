@@ -1,0 +1,22 @@
+class A {
+static int i = 5;
+void f() {
+System.out.print(" A     " + (i++));
+
+}
+void g() {
+this.f();
+}
+
+//public static void main(String[] args) {
+//	//System.out.println(A.i);
+//	
+//	A a = new A();
+//	a.f();
+//	System.out.println("f    " + (a.i));
+//	A b = new A();
+//	b.g();
+//	System.out.println("g   " + (b.i));
+//
+//}
+}

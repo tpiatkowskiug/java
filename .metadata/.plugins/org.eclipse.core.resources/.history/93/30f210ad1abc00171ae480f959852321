@@ -1,0 +1,33 @@
+import java.io.DataOutputStream;
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
+import java.io.IOException;
+ 
+public class Strumienie {
+
+	public static void main(String[] args) {
+		DataOutputStream strumien = null;
+		
+		try{
+			strumien = new DataOutputStream(new FileOutputStream("ala.txt"));
+		}
+		catch(FileNotFoundException e){
+			System.out.println("nie znaleziono pliku");
+		}
+		try{
+			//jakieś metody
+		}
+		catch (IOException e){
+			// obsłużenie wyjątku
+		}
+		try{
+			if (strumien != null );
+			strumien.close();
+		}
+		catch(IOException e){
+			System.out.println("błąd zapisu");
+		}
+	}
+	
+
+}

@@ -1,0 +1,23 @@
+package okiennko;
+
+import javax.swing.JButton;
+import javax.swing.JFrame;
+
+public class MojeTP extends JFrame {
+	public MojeTP(){
+		setSize(200, 200);
+		setTitle("okienko");
+		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		setVisible(true);
+		JButton podajdate = new JButton("Podaj date");
+		add(podajdate);
+		setLayout(null);
+		podajdate.setBounds(100, 50, 100, 20);
+	
+	}
+
+	public static void main(String[] args){
+		JFrame okno = new MojeTP();
+	}
+
+}

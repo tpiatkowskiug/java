@@ -1,0 +1,57 @@
+package okiennko;
+
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+
+import javax.swing.Action;
+import javax.swing.JButton;
+import javax.swing.JFrame;
+import javax.swing.JLabel;
+import javax.swing.JTextField;
+
+public class CelcujeszedoFarenhajta extends JFrame implements ActionListener{
+	JLabel Celcjusz, Farenhajt;
+	JTextField tCelcusz, tFarenhajt;
+	JButton bConvert;
+	double tC, tF;
+	
+	public CelcujeszedoFarenhajta(){
+		setSize(300, 300);
+		setTitle("Przeliczanie stopni");
+		setVisible(true);
+		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		setLayout(null);
+		
+		bConvert = new JButton("Przelicz");
+		add(bConvert);
+		bConvert.setBounds(80, 140, 150, 20);
+		bConvert.addActionListener(this);
+		
+		Celcjusz = new JLabel("stonie Celcujsza");
+		add(Celcjusz);
+		Celcjusz.setBounds(80, 50, 150, 20);
+		
+		tCelcusz = new JTextField("...");
+		tCelcusz.setBounds(80, 70, 150, 20	);
+		add(tCelcusz);
+		
+		Farenhajt = new JLabel("stopnie Farenhajta");
+		add(Farenhajt);
+		Farenhajt.setBounds(80, 90, 150, 20);
+		
+		tFarenhajt = new JTextField("...");
+		tFarenhajt.setBounds(80, 110, 150, 20	);
+		add(tFarenhajt);
+	}
+	
+	public static void main(String[] args) {
+		JFrame oknoCF = new CelcujeszedoFarenhajta();
+	}
+
+	public void actionPerformed(ActionEvent e) {
+		tC = Double.parseDouble(tCelcusz.getText());
+		tF = 32.0 + (9.0/5.0) * tC;
+		tFarenhajt.setText(String.valueOf(tF));
+	}
+
+}

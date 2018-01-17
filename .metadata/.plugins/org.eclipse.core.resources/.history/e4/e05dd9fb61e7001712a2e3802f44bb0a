@@ -1,0 +1,16 @@
+package okiennko;
+
+import javax.swing.JFrame;
+
+public class MojeTP extends JFrame {
+	public MojeTP(){
+		setSize(200, 200);
+		setTitle("okienko");
+		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+	}
+
+	public static void main(String[] args){
+		JFrame okno = new MojeTP();
+	}
+
+}

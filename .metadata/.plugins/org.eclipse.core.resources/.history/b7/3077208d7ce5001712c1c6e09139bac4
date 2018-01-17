@@ -1,0 +1,28 @@
+
+public class Firma1 {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		Pracownik pracownicy[] = new Pracownik[3];
+		//int pracownik[]=new int[3];
+		
+		String imie[] = {"Włódek", "jacek", "zenek"};
+		String nazwisko[] = {"jankowski", "szczepkowski", "janosik"};
+		double pencja[] = {2222, 3333, 4444};
+		for(int i=0; i<pracownicy.length; i++){
+			
+			pracownicy[i] = new Pracownik();
+			pracownicy[i].imie=imie[i];
+			pracownicy[i].nazwisko=nazwisko[i];
+			pracownicy[i].pensja=pencja[i];
+		}
+		System.out.println("Pracownicy firmy to:");
+		for(int i=0; i<pracownicy.length; i++){
+			
+			System.out.println(pracownicy[i].getPracownik());
+		}
+	}
+
+}

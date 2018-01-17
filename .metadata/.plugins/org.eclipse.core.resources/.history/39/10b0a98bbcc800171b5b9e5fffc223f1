@@ -1,0 +1,6 @@
+
+public class Test {
+int x;
+int y; 
+System.out.println("Współrzędne to:" +x+" "+y);
+}

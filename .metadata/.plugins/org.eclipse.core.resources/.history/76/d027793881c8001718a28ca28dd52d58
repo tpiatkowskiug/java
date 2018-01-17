@@ -1,0 +1,15 @@
+
+public class UstawPunkt {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		HelloWorld punkt = new HelloWorld();
+		punkt.wspX = 10;
+		punkt.wspY = 20;
+		System.out.println("Współrzędne to"+punkt.wspX+","+punkt.wspY);
+
+	}
+
+}

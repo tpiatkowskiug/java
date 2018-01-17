@@ -1,0 +1,14 @@
+import java.util.Scanner;
+
+public class SzyfrCezara {
+	public static void main(String[] args) {
+		System.out.print(SzyfrCezara.wejście());
+	}
+	public static String wejście(){
+		Scanner sc = new Scanner(System.in);
+		String input = sc.nextLine();
+		sc.close();
+		return input;
+	}
+
+}

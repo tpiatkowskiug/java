@@ -1,8 +1,0 @@
-
-public class wyswietl {
-	static void zwieksz (int liczba){
-		liczba++;
-		//System.out.println(liczba);
-	}
-
-}
